@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.6
 
 # ex8: Printing, Printing
 
-formatter = "%r %r %r %r"
+formatter = "%s %s %s %s"
 
 print(formatter % (1, 2, 3, 4))
 print(formatter % ("one", "two", "three", "four"))

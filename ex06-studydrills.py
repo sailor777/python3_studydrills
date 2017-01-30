@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.6
 
 # ex6: String and Text
 
@@ -25,13 +25,13 @@ print(y)
 print("I said %r." % x)  # One string inside of a string
 
 # Print "I also said: 'Those who know binary and those who don't.'."
-print("I also said: '%s'." % y)  # One string inside of a string
+print("I also said: %r." % y)  # One string inside of a string
 
 # Assign boolean False to variable 'hilarious'
 hilarious = False
 
 # Assign the string with an unevaluated formatting character to 'joke_evaluation'
-joke_evaluation = "Isn't that joke so funny?! %r" 
+joke_evaluation = "Isn't that joke so funny?! %r"
 
 # Print "Isn't that joke so funny?! False"
 print(joke_evaluation % hilarious)  # One string inside of a string

@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.6
 
 # ex07: More Printing
 
-# Print "Mary had a little lamb." 
+# Print "Mary had a little lamb."
 print("Mary had a little lamb.")
 
 # Print "Its fleece was white as snow."
@@ -32,5 +32,5 @@ end11 = "e"
 end12 = "r"
 
 # watch the first statement at the end. try removing it to see what happens
-print(end1 + end2 + end3 + end4 + end5 + end6, end = " ")
+print(end1 + end2 + end3 + end4 + end5 + end6, end = "-")
 print(end7 + end8 + end9 + end10 + end11 + end12)

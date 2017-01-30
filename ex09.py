@@ -1,14 +1,14 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.6
 
 # ex9: Printing, Printing, Printing
 
 # Here's some new strange stuff, remember type it exactly.
 
 days = "Mon Tue Wed Thu Fri Sat Sun"
-months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+months = "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
-print("Here are the days: ", days)
-print("Here are the months: ", months)
+print("Here are the days:", days)
+print("Here are the months:", months)
 
 print("""
 There's something going on here.
