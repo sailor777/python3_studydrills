@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.6
 
 # ex13: Parameters, Unpacking, Variables
 # Write a script that has more arguments.
@@ -10,5 +10,5 @@ script, name, age, height, weight = argv
 print("The script is called:", script)
 print("Your name is:", name)
 print("Your age is:", age)
-print("Your height is %d inches" % int(height))
-print("Your weight is %d pounds" % int(weight))
+print("Your height is %d cm" % int(height))
+print("Your weight is %d kg" % int(weight))

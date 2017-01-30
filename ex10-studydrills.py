@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.6
 
 # ex10: What Was That?
 
@@ -30,8 +30,8 @@ sun = "Sun"
 
 print("%s\n%s\t%s\t%s\t%s\t%s\t%s\t%s\n" % (intro, mon, tue, wed, thu, fri, sat, sun))
 
-print("%r" % intro)
-print("%r" % "She said \"I'll print a week\"")
+print("%s" % intro)
+print("%s" % "She said \"I'll print a week\"")
 
 print("%s" % intro)
 print("%s" % "She said \"I'll print a week\"")

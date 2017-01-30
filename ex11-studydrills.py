@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.6
 
 # ex11: Asking Questions
 
@@ -6,7 +6,7 @@
 # and the old input() is gone, but you can emulate it with eval(input())
 
 print("How old are you?", end=" ")
-age = input()  
+age = input()
 print("How tall are you?", end=" ")
 height = input()
 print("How much do you weight", end=" ")
